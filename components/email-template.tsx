@@ -4,7 +4,7 @@ interface EmailTemplateProps {
   firstName: string
 }
 
-export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({ firstName }) => (
+export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = () => (
   <div style={{ fontFamily: "Arial, sans-serif", padding: "40px", backgroundColor: "#fef2f2" }}>
     <div
       style={{

@@ -41,6 +41,7 @@ export function Quiz({ onComplete }: QuizProps) {
   const [score, setScore] = useState(0)
   const [showMessage, setShowMessage] = useState(false)
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null)
+  const [isWrong, setIsWrong] = useState(false)
 
   const handleAnswer = (answerIndex: number) => {
     setSelectedAnswer(answerIndex)
@@ -53,6 +54,10 @@ export function Quiz({ onComplete }: QuizProps) {
         spread: 60,
         origin: { y: 0.6 },
       })
+      setIsWrong(false)
+    } else {
+      setIsWrong(true)
+      setTimeout(() => setIsWrong(false), 600)
     }
 
     setShowMessage(true)
@@ -72,7 +77,7 @@ export function Quiz({ onComplete }: QuizProps) {
 
   return (
     <div className="min-h-screen flex items-center justify-center p-6 bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50">
-      <Card className="max-w-2xl w-full p-8 md:p-12 shadow-2xl">
+      <Card className={`max-w-2xl w-full p-8 md:p-12 shadow-2xl ${isWrong ? "animate-shake" : ""}`}>
         <div className="space-y-6">
           <div className="text-center space-y-2">
             <h2 className="font-serif text-3xl md:text-4xl text-foreground">O quanto você me conhece?</h2>
@@ -100,6 +105,9 @@ export function Quiz({ onComplete }: QuizProps) {
 
             {showMessage && (
               <div className="text-center animate-fade-in">
+                {selectedAnswer !== questions[currentQuestion].correct && (
+                  <p className="text-4xl mb-2 animate-bounce">😂</p>
+                )}
                 <p className="text-lg text-rose-600 font-medium">{questions[currentQuestion].sweetMessage}</p>
                 {isLastQuestion && (
                   <p className="text-xl font-serif mt-4 text-foreground">Você me conhece tanto quanto eu te amo! 💖</p>

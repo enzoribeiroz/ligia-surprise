@@ -14,9 +14,8 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "Feliz Aniversário, Meu Amor",
-  description: "Uma surpresa especial de aniversário",
-  generator: "v0.app",
+  title: "Para meu amor, com todo meu coração",
+  description: "Não esqueci, meu amor. 1 mês de você e eu.",
 }
 
 export default function RootLayout({

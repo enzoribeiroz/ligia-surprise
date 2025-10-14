@@ -57,32 +57,31 @@ export function VirtualCards({ onNext }: VirtualCardsProps) {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {reasons.map((reason, index) => (
-            <div key={index} className="perspective-1000">
-              <Card
-                className={`cursor-pointer transition-all duration-500 transform-style-3d ${
-                  openCards.includes(index) ? "rotate-y-180" : ""
+            <div key={index} className="h-64" style={{ perspective: "1000px" }}>
+              <div
+                className={`cursor-pointer w-full h-full transition-all duration-700 relative ${
+                  openCards.includes(index) ? "[transform:rotateY(180deg)]" : ""
                 }`}
                 onClick={() => toggleCard(index)}
+                style={{ transformStyle: "preserve-3d" }}
               >
-                {/* Front of card (envelope) */}
-                <div className={`backface-hidden ${openCards.includes(index) ? "hidden" : "block"}`}>
-                  <div className="p-8 h-64 flex flex-col items-center justify-center space-y-4 bg-gradient-to-br from-rose-100 to-pink-100">
+                <Card className="absolute inset-0 [backface-visibility:hidden]">
+                  <div className="p-8 h-full flex flex-col items-center justify-center space-y-4 bg-gradient-to-br from-rose-100 to-pink-100">
                     <div className="w-20 h-20 bg-rose-500 rounded-full flex items-center justify-center">
                       <Heart className="w-10 h-10 text-white" fill="currentColor" />
                     </div>
                     <h3 className="font-serif text-2xl text-center">{reason.title}</h3>
                     <p className="text-sm text-muted-foreground">Clique para abrir</p>
                   </div>
-                </div>
+                </Card>
 
-                {/* Back of card (message) */}
-                <div className={`backface-hidden ${openCards.includes(index) ? "block" : "hidden"}`}>
-                  <div className="p-8 h-64 flex flex-col items-center justify-center space-y-4 bg-white">
+                <Card className="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)]">
+                  <div className="p-8 h-full flex flex-col items-center justify-center space-y-4 bg-white">
                     <Heart className="w-8 h-8 text-rose-500" fill="currentColor" />
                     <p className="text-center text-lg leading-relaxed">{reason.message}</p>
                   </div>
-                </div>
-              </Card>
+                </Card>
+              </div>
             </div>
           ))}
         </div>

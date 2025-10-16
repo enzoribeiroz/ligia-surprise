@@ -105,7 +105,7 @@ END:VCALENDAR`
             </h1>
 
             <p className="text-xl md:text-2xl text-white/80 leading-relaxed max-w-2xl mx-auto font-light">
-              Para um encontro especial comigo. Quero passar um momento inesquecível ao seu lado.
+              Para um encontro especial comigo. 1 mês de namoro merece ser comemorado com muito amor e carinho.
             </p>
 
             <div className="flex items-center justify-center gap-4 py-8">
@@ -145,8 +145,16 @@ END:VCALENDAR`
 
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8 my-8 shadow-lg">
               <p className="text-white/90 italic leading-relaxed text-lg">
-                "Cada momento ao seu lado é especial, mas quero tornar este ainda mais memorável. Vista algo bonito e
-                prepare-se para uma noite mágica. Mal posso esperar para ver você."
+                "Eu te queria a vida toda, te confesso
+              </p>
+              <p className="text-white/90 italic leading-relaxed text-lg">
+                Por mim, a gente nem precisa mais da estrada
+              </p>
+              <p className="text-white/90 italic leading-relaxed text-lg">
+                Eu vejo você longe e quero você perto
+              </p>
+              <p className="text-white/90 italic leading-relaxed text-lg">
+                Fica na minha sombra, eu posso ser teu rastro"
               </p>
             </div>
 
@@ -163,7 +171,7 @@ END:VCALENDAR`
               <div className="space-y-6">
                 <div className="bg-gradient-to-r from-rose-500/20 to-purple-500/20 backdrop-blur-sm border border-rose-400/30 rounded-xl p-8 shadow-lg">
                   <p className="text-rose-200 font-medium text-xl mb-6">
-                    Que felicidade! Estou ansioso para nosso encontro!
+                    Sim?
                   </p>
 
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">

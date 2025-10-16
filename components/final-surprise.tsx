@@ -158,7 +158,7 @@ export function FinalSurprise() {
                 </p>
 
                 <p className="text-muted-foreground text-justify">
-                  Amor é uma coisa difícil de explicar, mas parece que tijolinho por tijolinho, as coisas acontecem.  
+                  Amor é uma coisa difícil de explicar, mas parece que tijolinho por tijolinho, as coisas acontecem. Nosso primeiro mês juntos, de verdade, e eu tenho a gigantesca sensação que é daqui para sempre.
                 </p>
 
                 <p className="text-muted-foreground text-right">

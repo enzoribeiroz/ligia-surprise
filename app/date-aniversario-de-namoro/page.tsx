@@ -8,11 +8,11 @@ export default function ConvitePage() {
   const [accepted, setAccepted] = useState(false)
 
   const eventDetails = {
-    title: "Encontro Especial com Você",
-    description: "Um momento inesquecível juntos. Vista algo bonito e prepare-se para uma noite mágica!",
+    title: "1 mês e que seja eterno",
+    description: "Vista-se elegante, do jeito que eu gosto.",
     location: "Nosso lugar favorito",
-    startDate: "2025-03-15T19:00:00",
-    endDate: "2025-03-15T23:00:00",
+    startDate: "2025-10-17T21:00:00",
+    endDate: "2025-10-17T23:00:00",
   }
 
   const addToGoogleCalendar = () => {

@@ -93,9 +93,9 @@ export function FinalSurprise() {
 
             <div className="space-y-4">
               <h2 className="font-serif text-5xl md:text-6xl text-foreground animate-bounce">
-                Pronta para a surpresa final?
+                te amo, amor
               </h2>
-              <p className="text-xl text-muted-foreground">Algo muito especial está esperando por você...</p>
+              <p className="text-xl text-muted-foreground">Meu coração tem algumas palavrinhas para você</p>
             </div>
 
             <Button
@@ -122,50 +122,55 @@ export function FinalSurprise() {
             </div>
 
             <div className="space-y-6">
-              <h2 className="font-serif text-6xl md:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-pink-500 to-purple-500 animate-pulse">
+              {/* <h2 className="font-serif text-6xl md:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-pink-500 to-purple-500 animate-pulse">
                 Feliz Aniversário!
-              </h2>
-              <h3 className="font-serif text-4xl md:text-5xl text-foreground">Meu Amor Eterno 💕</h3>
+              </h2> */}
+              <h3 className="font-serif text-4xl md:text-5xl text-foreground">Sobre amar você</h3>
             </div>
 
             <div className="space-y-8 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
               <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl space-y-6">
-                <p className="text-muted-foreground">
-                  Hoje celebramos mais um ano juntos, e mesmo com a distância entre nós, meu amor por você só cresce a
-                  cada dia que passa.
+                <p className="text-black">
+                  1 mês, 720 horas, 43.200 minutos, 2.592.000 segundos e que seja eterno
                 </p>
 
                 <div className="flex items-center justify-center gap-4 py-4">
-                  <Heart className="w-8 h-8 text-rose-500" fill="currentColor" />
+                  {/* <Heart className="w-8 h-8 text-rose-500" fill="currentColor" /> */}
                   <Heart className="w-12 h-12 text-rose-500" fill="currentColor" />
-                  <Heart className="w-8 h-8 text-rose-500" fill="currentColor" />
+                  {/* <Heart className="w-8 h-8 text-rose-500" fill="currentColor" /> */}
                 </div>
 
-                <p className="text-muted-foreground">
-                  Você é a pessoa mais especial da minha vida, e não existe distância capaz de diminuir o que sinto por
-                  você. Cada quilômetro que nos separa só fortalece nosso amor.
+                <p className="text-black text-justify font-bold">
+                  Lígia,
                 </p>
 
-                <p className="text-2xl font-serif text-foreground bg-gradient-to-r from-rose-500 to-pink-500 bg-clip-text text-transparent">
+                <p className="text-muted-foreground text-justify">
+                  Você é incrível na ideia, na fala, no jeito, no sorriso, no olhar, na risada, na voz, no abraço. Você faz meus dias mais leves, mais alegres, mais coloridos. Você é a razão do meu sorriso bobo, do meu coração acelerado, da minha felicidade completa.
+                </p>
+
+                <p className="text-muted-foreground text-justify">
+                  Eu tento, mas é difícil mostrar pelos meus olhos, pelas minhas palavras, o quanto eu te admiro, te cuido, te zelo e te amo. Eu quero te fazer feliz, te ver sorrir, te ver brilhar. Quero ser seu porto seguro, seu melhor amigo, seu amor eterno. Pode?
+                </p>
+
+                <p className="text-muted-foreground text-justify">
+                  Nós 
+                </p>
+
+                {/* <p className="text-2xl font-serif text-foreground bg-gradient-to-r from-rose-500 to-pink-500 bg-clip-text text-transparent">
                   Cada momento ao seu lado (mesmo que virtual) é um presente precioso. Você é meu maior presente! 🎁
-                </p>
-
-                <p className="text-muted-foreground">
-                  Mal posso esperar pelo dia em que não precisaremos mais de telas para estarmos juntos. Até lá, saiba
-                  que você está sempre no meu coração, em cada batida, em cada pensamento.
-                </p>
+                </p> */}
 
                 <div className="pt-6 border-t-2 border-rose-200">
-                  <p className="text-4xl font-serif text-rose-600 animate-pulse">
-                    Eu te amo mais do que as palavras podem expressar!
+                  <p className="text-4xl font-serif text-rose-700 animate-pulse">
+                    Te amo, meu amor.
                   </p>
-                  <p className="text-3xl mt-4">❤️ 💕 💖 💗 💓</p>
+                  <p className="text-3xl mt-4">💗</p>
                 </div>
               </div>
             </div>
 
             <div className="space-y-6">
-              <Button
+              {/* <Button
                 onClick={playOurSong}
                 size="lg"
                 className="bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 text-white px-12 py-8 text-xl rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
@@ -173,7 +178,7 @@ export function FinalSurprise() {
                 <Music className="w-6 h-6 mr-3" />
                 Tocar nossa música
                 <Music className="w-6 h-6 ml-3" />
-              </Button>
+              </Button> */}
 
               <div className="space-y-2">
                 <p className="text-2xl font-serif text-foreground">Com todo meu amor,</p>

@@ -14,20 +14,20 @@ const questions = [
     question: "Quem disse 'eu te amo' primeiro?",
     options: ["Eu", "Você", "Foi ao mesmo tempo"],
     correct: 0, // Ajuste conforme sua realidade
-    sweetMessage: "E foi o momento mais especial da minha vida! 💕",
+    sweetMessage: "Sim, fui eu! Te amo! ❤️",
   },
-  {
-    question: "Qual é a nossa música?",
-    options: ["Música 1", "Música 2", "Música 3"],
-    correct: 0,
-    sweetMessage: "Toda vez que ouço, penso em você! 🎵",
-  },
-  {
-    question: "Onde foi nosso primeiro encontro?",
-    options: ["Lugar 1", "Lugar 2", "Lugar 3"],
-    correct: 0,
-    sweetMessage: "Nunca vou esquecer esse dia! 🌟",
-  },
+  // {
+  //   question: "Qual é a nossa música?",
+  //   options: ["Música 1", "Música 2", "Música 3"],
+  //   correct: 0,
+  //   sweetMessage: "Toda vez que ouço, penso em você! 🎵",
+  // },
+  // {
+  //   question: "Onde foi nosso primeiro encontro?",
+  //   options: ["Lugar 1", "Lugar 2", "Lugar 3"],
+  //   correct: 0,
+  //   sweetMessage: "Nunca vou esquecer esse dia! 🌟",
+  // },
   {
     question: "Posso te fazer uma pergunta?",
     options: ["Sim?", "Pode?", "Quanto você gosta de mim?"],

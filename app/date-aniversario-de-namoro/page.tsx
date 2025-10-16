@@ -205,6 +205,10 @@ END:VCALENDAR`
               Seu namorado
             </p>
           </div>
+
+          <div className="text-center mt-16 relative z-10">
+            <p className="text-white/60 text-sm">Ps.: desenvolvi tudo isso aqui pensando em cada detalhe para que fosse uma surpresa legal, na medida que a distancia me permite fazer alguma coisa especial... Me sinto muito feliz com você e espero que tenhamos cada vez mais momentos felizes, leves, divertidos e intensos juntos. 1 mês é pouco perto do que podemos viver. Te amo, se cuida e fica com Deus! S2</p>
+          </div>
         </div>
 
         <div className="fixed inset-0 pointer-events-none overflow-hidden">

@@ -126,7 +126,7 @@ export function FinalSurprise() {
               {/* <h2 className="font-serif text-6xl md:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-pink-500 to-purple-500 animate-pulse">
                 Feliz Aniversário!
               </h2> */}
-              <h3 className="font-serif text-4xl md:text-5xl text-foreground">Sobre amar você</h3>
+              <h3 className="font-serif text-4xl md:text-5xl text-foreground">Eu, você, nós e amor</h3>
             </div>
 
             <div className="space-y-8 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
@@ -146,11 +146,11 @@ export function FinalSurprise() {
                 </p>
 
                 <p className="text-muted-foreground text-justify">
-                  Você é incrível na ideia, na fala, no jeito, no sorriso, no olhar, na risada, na voz, no abraço. Você faz meus dias mais leves, mais alegres, mais coloridos. Você é a razão do meu sorriso bobo, do meu coração acelerado, da minha felicidade completa.
+                  Eu tento, mas é difícil mostrar pelos meus olhos, pelas minhas palavras, o quanto eu te admiro, te cuido, te zelo e te amo. Eu quero te fazer feliz, te ver sorrir, te ver brilhar. Quero ser seu porto seguro, seu melhor amigo, seu amor eterno. Pode?
                 </p>
 
                 <p className="text-muted-foreground text-justify">
-                  Eu tento, mas é difícil mostrar pelos meus olhos, pelas minhas palavras, o quanto eu te admiro, te cuido, te zelo e te amo. Eu quero te fazer feliz, te ver sorrir, te ver brilhar. Quero ser seu porto seguro, seu melhor amigo, seu amor eterno. Pode?
+                  Você é incrível na ideia, na fala, no jeito, no sorriso, no olhar, na risada, na voz, no abraço. Você faz meus dias mais leves, mais alegres, mais coloridos. Você é a razão do meu sorriso bobo, do meu coração acelerado, da minha felicidade completa.
                 </p>
 
                 <p className="text-muted-foreground text-justify">
@@ -159,6 +159,10 @@ export function FinalSurprise() {
 
                 <p className="text-muted-foreground text-justify">
                   Amor é uma coisa difícil de explicar, mas parece que tijolinho por tijolinho, as coisas acontecem. Nosso primeiro mês juntos, de verdade, e eu tenho a gigantesca sensação que é daqui para sempre.
+                </p>
+
+                <p className="text-muted-foreground text-justify">
+                  Seja feliz e se der para ser comigo, melhor ainda!
                 </p>
 
                 <p className="text-muted-foreground text-right">
@@ -191,8 +195,7 @@ export function FinalSurprise() {
               </Link>
 
               <div className="space-y-2">
-                <p className="text-2xl font-serif text-foreground">Com todo meu amor,</p>
-                <p className="text-xl text-muted-foreground">Sempre seu, para sempre ❤️</p>
+                <p className="text-xl text-muted-foreground">Sim? ❤️</p>
               </div>
             </div>
           </div>

@@ -4,6 +4,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Heart, Music, Sparkles } from "lucide-react"
 import confetti from "canvas-confetti"
+import Link from "next/link"
 
 export function FinalSurprise() {
   const [revealed, setRevealed] = useState(false)
@@ -153,12 +154,20 @@ export function FinalSurprise() {
                 </p>
 
                 <p className="text-muted-foreground text-justify">
-                  Nós 
+                  Nós juntos somos mais fortes, mais felizes, mais completos. Tempo junto é tempo bem gasto. E eu quero gastar meu tempo com você, hoje, amanhã e sempre.
                 </p>
 
-                {/* <p className="text-2xl font-serif text-foreground bg-gradient-to-r from-rose-500 to-pink-500 bg-clip-text text-transparent">
-                  Cada momento ao seu lado (mesmo que virtual) é um presente precioso. Você é meu maior presente! 🎁
-                </p> */}
+                <p className="text-muted-foreground text-justify">
+                  Amor é uma coisa difícil de explicar, mas parece que tijolinho por tijolinho, as coisas acontecem.  
+                </p>
+
+                <p className="text-muted-foreground text-right">
+                  Com carinho,
+                </p>
+
+                <p className="text-black text-right font-bold">
+                  Enzo, mô
+                </p>
 
                 <div className="pt-6 border-t-2 border-rose-200">
                   <p className="text-4xl font-serif text-rose-700 animate-pulse">
@@ -169,16 +178,17 @@ export function FinalSurprise() {
               </div>
             </div>
 
-            <div className="space-y-6">
-              {/* <Button
-                onClick={playOurSong}
-                size="lg"
-                className="bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 text-white px-12 py-8 text-xl rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
+            <div className="flex flex-col space-y-6 gap-2">
+              <Link
+                href={"/date-aniversario-de-namoro"}
               >
-                <Music className="w-6 h-6 mr-3" />
-                Tocar nossa música
-                <Music className="w-6 h-6 ml-3" />
-              </Button> */}
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 text-white px-12 py-8 text-xl rounded-full shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
+                >
+                  Clique aqui
+                </Button>
+              </Link>
 
               <div className="space-y-2">
                 <p className="text-2xl font-serif text-foreground">Com todo meu amor,</p>

@@ -29,10 +29,10 @@ const questions = [
     sweetMessage: "Nunca vou esquecer esse dia! 🌟",
   },
   {
-    question: "Qual é o meu apelido carinhoso favorito pra você?",
-    options: ["Amor", "Meu bem", "Princesa"],
-    correct: 0,
-    sweetMessage: "Você é tudo isso e muito mais! 👑",
+    question: "Posso te fazer uma pergunta?",
+    options: ["Sim?", "Pode?", "Quanto você gosta de mim?"],
+    correct: 2,
+    sweetMessage: "MUITO MUITO MUITO MUITO MUITO MUITO MUITO MUITO MUITO MUITO MUITO MUITO MUITO MUITO MUITO MUITO MUITOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
   },
 ]
 
@@ -80,7 +80,7 @@ export function Quiz({ onComplete }: QuizProps) {
       <Card className={`max-w-2xl w-full p-8 md:p-12 shadow-2xl ${isWrong ? "animate-shake" : ""}`}>
         <div className="space-y-6">
           <div className="text-center space-y-2">
-            <h2 className="font-serif text-3xl md:text-4xl text-foreground">O quanto você me conhece?</h2>
+            <h2 className="font-serif text-3xl md:text-4xl text-foreground">Pode?</h2>
             <p className="text-muted-foreground">
               Pergunta {currentQuestion + 1} de {questions.length}
             </p>
@@ -106,11 +106,11 @@ export function Quiz({ onComplete }: QuizProps) {
             {showMessage && (
               <div className="text-center animate-fade-in">
                 {selectedAnswer !== questions[currentQuestion].correct && (
-                  <p className="text-4xl mb-2 animate-bounce">😂</p>
+                  <p className="text-4xl mb-2 animate-bounce">Não?</p>
                 )}
                 <p className="text-lg text-rose-600 font-medium">{questions[currentQuestion].sweetMessage}</p>
                 {isLastQuestion && (
-                  <p className="text-xl font-serif mt-4 text-foreground">Você me conhece tanto quanto eu te amo! 💖</p>
+                  <p className="text-xl font-serif mt-4 text-foreground">Achei pouco, mô</p>
                 )}
               </div>
             )}

@@ -12,27 +12,27 @@ interface VirtualCardsProps {
 const reasons = [
   {
     title: "Seu sorriso",
-    message: "Seu sorriso ilumina até os meus dias mais difíceis. É a coisa mais linda que já vi! 😊",
+    message: "dia 22/01/2025 foi a primeira coisa que eu vi em você, o sorriso mais lindo da Terra!",
   },
   {
     title: "Sua voz",
-    message: "Adoro ouvir sua voz, mesmo que seja só por mensagem de áudio. Ela acalma meu coração! 🎵",
+    message: "'mô', 'amor', 'gatinho' ou 'posso te fazer uma pergunta?' com voz de quiança é muito gostoso de escutar",
   },
   {
-    title: "Seu jeito de ser",
-    message: "Você é única, especial e perfeita do seu jeito. Não mudaria nada em você! 💖",
+    title: "Suas ideias",
+    message: "nova, criativa e cheia de vida. Amo como você vê o mundo!",
   },
   {
-    title: "Sua força",
-    message: "Admiro sua força e determinação. Você me inspira a ser uma pessoa melhor todos os dias! 💪",
+    title: "Sua elegância",
+    message: "'pessoal, vocês estão numa simulação da ONU', firme, imponente, elegante em apenas 1.56m sapato 35 - que mulher.",
   },
   {
     title: "Seu carinho",
-    message: "Mesmo à distância, sinto todo o seu carinho e amor. Você cuida de mim de um jeito único! 🤗",
+    message: "carinho na nuca, pratinho de comida, beijinho, abraço, cafuné, cafuné, cafuné...",
   },
   {
     title: "Nosso amor",
-    message: "Nosso amor supera qualquer distância. Cada dia que passa, te amo ainda mais! 💕",
+    message: "intenso, verdadeiro, puro, leve, divertido, apaixonante. Te amo!",
   },
 ]
 
@@ -51,8 +51,8 @@ export function VirtualCards({ onNext }: VirtualCardsProps) {
     <div className="min-h-screen p-6 md:p-12 bg-gradient-to-br from-rose-50 via-pink-50 to-purple-50">
       <div className="max-w-6xl mx-auto space-y-8">
         <div className="text-center space-y-4">
-          <h2 className="font-serif text-4xl md:text-5xl text-foreground">Cartinhas Virtuais</h2>
-          <p className="text-lg text-muted-foreground">Clique em cada envelope para descobrir por que eu te amo</p>
+          <h2 className="font-serif text-4xl md:text-5xl text-foreground">Razões</h2>
+          <p className="text-lg text-muted-foreground">Pelas quais eu escolhi você. Top 10 coisas que eu já te falei milhares de vezes e nunca canso de repetir.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

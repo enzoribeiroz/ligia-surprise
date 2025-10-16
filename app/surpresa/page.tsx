@@ -27,7 +27,7 @@ export default function ConfirmEmailPage() {
       })
 
       if (!res.ok) throw new Error("Erro ao enviar o e-mail")
-      setMessage("O e-mail foi enviado. Verifique sua caixa de entrada (e o spam, por favor 🤨)... 🕯️")
+      setMessage("E-mail enviado. Verifique sua caixa de entrada (e o spam, por favor 🤨)...")
       setEmail("")
     } catch (err) {
       console.error(err)

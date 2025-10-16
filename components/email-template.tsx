@@ -26,7 +26,7 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = () => (
       </p>
       <div style={{ textAlign: "center", margin: "30px 0" }}>
         <a
-          href={`${process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"}`}
+          href="https://amor.enzoribeiroz.com.br"
           style={{
             backgroundColor: "#be123c",
             color: "#ffffff",
